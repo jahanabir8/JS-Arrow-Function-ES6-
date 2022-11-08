@@ -56,7 +56,7 @@ console.log(nowAge)
 // now use this function in a ARROW FUNCTION
 var dob = [1988, 1986, 1997, 2001]
 var newAge = dob.map(items => 2022-items)
-newAge
+console.log(newAge)
 // use this on your Chrome CONSOLE
 
 
