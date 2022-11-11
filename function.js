@@ -28,9 +28,13 @@ console.log(anotherArr)
 // another example using map
 // doing that same this using ES-6 function
 var dobs = [1993, 1987, 2001, 1997]
-var getAge = function(years){
-    return 2022-years
+var getAge = function(item){
+    return 2022-item
 }
+//     এখন এখানে দেখবেন আমরা আর্গুমেন্ট হিসেবে একটা item ইউজ করেছি। 
+//      কিন্তু এখানে map() তিনটা আর্গুমেন্ট অ্যাক্সেপ্ট করে। প্রথমটা তো দেখলামি,
+//       এটা অ্যারের প্রত্যেকটা আইটেম রিপ্রেজেন্ট করে, দ্বিতীয় আর্গুমেন্ট হচ্
+//        ছে অ্যারের আইটেমের ইন্ডেক্স নাম্বার, আর তৃতীয় নাম্বার টা সবসময়ই পুরো অ্যারে দিবে।
 dobs.map(getAge)
 
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
