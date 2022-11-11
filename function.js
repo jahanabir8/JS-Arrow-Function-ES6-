@@ -26,13 +26,19 @@ console.log(anotherArr)
 
 
 // another example using map
+// doing that same this using ES-6 function
+var dobs = [1993, 1987, 2001, 1997]
+var getAge = function(years){
+    return 2022-years
+}
+dobs.map(getAge)
+
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 console.log(arr)
 
 var getSquare = function(items){
     return items * items
 }
-
 arr.map(getSquare)
 // আপনি map() কোনো অ্যারেতে কল করলে সেটা সেই অ্যারের প্রত্যেকটা আইটেমের উপর
 // আপনারই দেওয়া একটা ফাংশন অ্যাপ্লাই করবে, এবং সবশেষে সবগুলো আবার আরেকটা
